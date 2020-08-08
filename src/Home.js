@@ -16,7 +16,10 @@ class Home extends Component{
     {
         return(
             <div>
-               <h1> You are logged in !!!</h1>
+            
+               <h4> Data retrieved from patient record</h4>
+               <h4> COVID-19 CRF</h4>
+               
                <button onClick={this.logout}>Logout</button>
             </div>
         )
